@@ -1,6 +1,13 @@
-.form {
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
 
+
+.form {
+    display: flex;
+    background-color: aqua;
 }
 .body__form{
-    
+
 }
