@@ -5,6 +5,7 @@ body {
     position: relative;
     width: 600px;
     height: 1318px;
+    
 }
 .container_text{
     height: 130px;
@@ -364,7 +365,7 @@ color: #455469;
     width: 86px;
     height: 17px;
     left: 257px;
-    margin-top: 9px;
+    margin-top: 40px;
 }
 .header_warning h1{
     font-family: 'Arial';
@@ -383,7 +384,7 @@ color: #455469;
     width: 545px;
     height: 119px;
     left: 27px;
-    margin-top: 31px;
+    margin-top: 60px;
 }
 .body_conta p {
     font-family: 'Arial';
@@ -572,5 +573,21 @@ color: #49970C;
 .imgwha img{
     margin-left: 3px;
     margin-top: 1px;
+
+}
+.img_header{
+    position: absolute;
+    left: 47%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+
+}
+.img_header img{
+    height: 29.16669273376465px;
+    width: 29.16669273376465px;
+    left: 2.916656494140625px;
+    top: 2.916656494140625px;
+    border-radius: 0px;
 
 }
