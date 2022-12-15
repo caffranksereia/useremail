@@ -50,19 +50,28 @@ header p{
     letter-spacing: 0em;
     text-align: left;
 }
+#divpai{
+    height: auto;
+    width: 600px;
+    max-width: auto;
+    max-height: auto;
+    position: relative;
+}
 .container_number_doc{
-    position: absolute;
+    position: relative;
     width: 586px;
     height: 130px;
     left: 7px;
-
+    margin-bottom: 10px;
+    background-color: #00A9EC;
     background: rgba(194, 196, 207, 0.35);
     border-radius: 15px;
+    max-height: 100%;
 }
 .numer_doc{
-    margin-top: 5px;
+    margin-top: 1px;
     border-radius: nullpx;
-    position: absolute;
+    position: relative;
     width: 110px;
     height: 22px;
     left: 242px;
@@ -81,70 +90,18 @@ header p{
     color: #979FAB;
 }
 .number{
-    position: absolute;
+    position: relative;
     width: 177px;
     height: 22px;
     left: 209px;
-    margin-top: 20px;
+    margin-top: 1px;
+    
 }
 .number h1{
-    margin-top: 0px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 22px;
-    /* identical to box height, or 110% */
-
-    text-align: center;
-
-    /* azul */
-
-    color: #00A9EC;
-}
-.container_number_doc0{
-    position: absolute;
-    width: 586px;
-    height: 130px;
-    left: 7px;
-    top: 36.4%;
-
-    background: rgba(194, 196, 207, 0.35);
-    border-radius: 15px;
-}
-.numer_doc1{
-    margin-top: 5px;
-    border-radius: nullpx;
-    position: absolute;
-    width: 110px;
-    height: 22px;
-    left: 242px;
-}
-.numer_doc1 p {
     margin-top: 1px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 22px;
-    /* identical to box height, or 220% */
-
-    text-align: center;
-
-    color: #979FAB;
-}
-.number1{
-    position: absolute;
-    width: 177px;
-    height: 22px;
-    left: 209px;
-    margin-top: 20px;
-}
-.number1 h1{
-    margin-top: 0px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     line-height: 22px;
     /* identical to box height, or 110% */
@@ -155,12 +112,11 @@ header p{
 
     color: #00A9EC;
 }
-
-.tdiv{
+  .tdiv{
     width: 586px;
     height: 80px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 10px;
 } 
 #thdt{
     position: absolute;
@@ -331,12 +287,16 @@ color: #455469;
 
     color: #FFFFFF;
 }
+.container_footer{
+    position: relative;
+}
+
 .footer_container{
-    position: absolute;
+    position: relative;
     width: 558px;
     height: 51px;
     left: 23px;
-    top: 614px;
+    top: 30px;
 }
 .container_p p{
     font-family: 'Arial';
@@ -352,11 +312,11 @@ color: #455469;
     color: #455469;
 }
 .container_warning{
-    position: absolute;
+    position: relative;
     width: 600px;
     height: 196px;
     left: 0px;
-    top: 679px;
+    top: 67px;
 
     background: #FFCC47;
 }
@@ -404,14 +364,14 @@ color: #455469;
     width: 289px;
     height: 129px;
     left: 28px;
-    top: 887px;
+    top: 80px;
 }
 .contato_footer{
     position: absolute;
     width: 289px;
     height: 129px;
     left: 28px;
-    top: 910px;
+    top: 90px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -443,11 +403,11 @@ ul{
     
 }
 .listTel{
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 100px;
     left: 261px;
-    top: 980px;
+    top: 162px;
     margin-right: 40px;
 }
 .listTel li {
@@ -462,11 +422,11 @@ ul{
     color: #455469;
 }
 .whatsapp_footer{
-    position: absolute;
+    position: relative;
     width: 560px;
     height: 100px;
-    right: 26px;
-    top: 1058px;
+    right: 1px;
+    top: 160px;
     background: #49970C;
     border-radius: 20px;
 }
@@ -498,6 +458,7 @@ ul{
     margin-left:70px;  
     background: #FFFFFF;
     border-radius: 160px;
+    background-color: #00A9EC;
 
 
 }
@@ -527,15 +488,58 @@ color: #49970C;
     padding: 0px 0px 0px 0px;
 }
 .container_info_filial{
-    position: absolute;
-    width: 637.88px;
-    height: 126px;
-    right: 10px;
-    top: 1180px;
+    position: relative;
+    left:-100px;
+    right: 39.05%;
+    top: 0%;
+    bottom: 0%;
+    top: 190px;
+    width: 700px;
+    
 }
 .container_info_filial img{
-    margin-left: 37px;
-    background-color: #455469;
+    width: 689px;
+    height: 138px;
+}
+.container_info_text{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 10px;
+    margin-left: 110px;
+}
+
+.container_info_text h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+  
+}
+.info_text{
+    position: absolute;
+    width: 436px;
+    height: 128px;
+    left: 1px;
+    
+}
+.info_text ul li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 154% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
 }
 .imgwhat{
     position: absolute;
